@@ -1,0 +1,11 @@
+[workspace]
+members = ["derive"]
+
+[package]
+name = "op"
+version = "0.1.0"
+authors = ["Valentin B. <valentin.be@protonmail.com>"]
+edition = "2018"
+
+[dependencies]
+op-derive = { path = "derive" }
